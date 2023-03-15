@@ -1,0 +1,121 @@
+@media(max-width:460px) {
+
+    .menu {
+        display: none;
+    }
+
+    .header_top_block {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px auto 10px;
+        height: 150px;
+        gap: 15px;
+    }
+
+    .header_top_block img {
+        width: 150px;
+    }
+
+    .header_top_block h1 {
+        margin-bottom: 35px;
+        font-size: 20px;
+    }
+
+    .work {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .work img {
+        width: 86%;
+        height: 100%;
+    }
+
+    .back_photo {
+        width: 90%;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .icon_app {
+        width: 55px;
+        top: 45px;
+        left: 43%;
+    }
+
+    .app h2 {
+        font-size: 30px;
+    }
+
+    .app_block {
+        width: 100%;
+    }
+
+    .question {
+        display: none;
+    }
+
+    .text1 p {
+        font-size: 15px;
+    }
+
+    .project h2 {
+        font-size: 30px;
+    }
+
+    .download h2 {
+        font-size: 30px;
+    }
+
+    .download1 img {
+        width: 100px;
+        /* margin-left: auto; */
+        padding-bottom: 20px;
+    }
+
+    .text2 p {
+        font-size: 15px;
+    }
+
+    .footer_logo {
+        font-size: 30px;
+    }
+
+    footer {
+        height: 850px;
+    }
+
+    .icons {
+        width: 100%;
+        justify-content: space-around;
+
+    }
+
+    .icons img {
+        width: 40px;
+    }
+
+    .podval {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text_block {
+        width: 80%;
+        font-size: 18px;
+        flex: 0 1 2%;
+    }
+
+    .text_block p {
+        width: 80%;
+        font-size: 13px;
+        margin-left: 10%;
+    }
+}
+
+@media(min-width:460px) {
+    .burger_menu {
+        display: none;
+    }
+
+}
